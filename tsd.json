@@ -1,0 +1,48 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "express/express.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "ace/ace.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "compression/compression.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "mime/mime.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "mongoose/mongoose.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "node/node.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "socket.io/socket.io.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    },
+    "socket.io-client/socket.io-client.d.ts": {
+      "commit": "c2694483f0fd038f3e769fa59498f230752b8100"
+    }
+  }
+}

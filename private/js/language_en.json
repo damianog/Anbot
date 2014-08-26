@@ -1,0 +1,13 @@
+{
+    "button_new" : "New",
+    "button_save" : "Save",
+    "button_cancel" : "Cancel",
+    "button_close" : "Close",
+    "button_delete" : "Delete",
+    "menu_home": "Site",
+    "menu_home_site": "Home Site",
+    "menu_home_siteadmin": "Site manager",
+    "menu_user_login": "Login",
+    "system_info" : "System information",
+    "system_info_nodeversion" : "Node version"
+}

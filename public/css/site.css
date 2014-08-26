@@ -1,0 +1,11 @@
+.tile {
+    border: 1px solid #999;
+    cursor: pointer;
+    height: 128px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.tile:hover{
+    background-color: #efefef;
+}

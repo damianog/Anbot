@@ -1,0 +1,36 @@
+<div class="col-sm-3">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <button class="btn btn-default btn-xs" ng-click="vm.LevelUp()"><span class="fa fa-level-up"></span></button>
+            {{vm.currentFolder.path}}
+        </div>
+        <ul class="list-group">
+            <li ng-repeat="i in vm.currentFolder.children | orderBy: ['-type','name']" class="list-group-item">
+                <a href="#" ng-click="vm.Explore(i)">
+                    <i class="fa" ng-class="vm.FaIcon(i)"></i>
+                    <span> {{i.name}}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="col-sm-9">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <button class="btn btn-default btn-sm btn-primary">
+                <i class="fa fa-file"></i> {{lang.button_new}}
+            </button>
+            <button class="btn btn-default btn-sm btn-default" ng-click="vm.SaveFile()">
+                <i class="fa fa-save"></i> {{lang.button_save}}
+            </button>
+            <button class="btn btn-default btn-sm btn-default">
+                <i class="fa fa-times"></i> {{lang.button_close}}
+            </button>
+        </div>
+        <div class="panel-body">
+            <div ng-ace style="height: 450px;">
+             </div>
+        </div>
+    </div>
+</div>
